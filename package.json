@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.6",
+    "@nuxtjs/seo": "^5.3.16",
+    "bootstrap": "^5.3.2",
+    "nuxt": "^3.9.0",
+    "nuxt-gtag": "^1.1.2",
+    "raw-loader": "^4.0.2",
+    "shikiji": "^0.9.10"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.7.0",
+    "aos": "^2.3.4",
+    "gsap": "^3.13.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "sugar": "^2.0.6"
+  },
+  "engines": {
+    "node": ">=19.6.1",
+    "npm": ">=9.4.0"
+  }
+}
